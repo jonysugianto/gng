@@ -1,6 +1,6 @@
 # growing neural gas
 
-Golang implementation of supervised and unsupervised growing neural gas algorithms based on
+Scala implementation of supervised and unsupervised growing neural gas algorithms based on
 - https://www.cs.swarthmore.edu/~meeden/DevelopmentalRobotics/fritzke95.pdf
 - http://www.booru.net/download/MasterThesisProj.pdf
 
