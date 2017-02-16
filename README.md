@@ -8,20 +8,9 @@ As example minist classification is implemented with supervised growing neural g
 
 To install:
 
-1. go get github.com/jonysugianto/dfa_cnn
+1. git clone https://github.com/jonysugianto/gng
 
-2. a) download minist dataset from http://yann.lecun.com/exdb/mnist/
-   b) unzip all zip files and put in to the folder: /tmp/minist
+2. a) cd gng
+   b) mvn clean compile assembly:single
 
-3. a) cd minist_example/minist_mlnn (minist recognition using multi layer feed forward network only)
-
-   b) go build
-
-   c) ./minist_mlnn
-
-4. a) cd minist_example/minist_cnn (minist recognition using multi layer convolutional neural network
-                                   and multi layer feed forward network)
-
-   b) go build
-
-   c) ./minist_cnn
+3. java -classpath growing_neural_gas-1.0-SNAPSHOT-jar-with-dependencies.jar js.minist.InitialTraining
